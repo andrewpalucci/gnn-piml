@@ -1,0 +1,31 @@
+# Python / builds
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Envs & notebooks
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Data / runs / figures
+data/*
+!data/.gitkeep
+runs/
+figs/*
+!figs/.gitkeep
+
+# Mesh & solver outputs (often big)
+*.xdmf
+*.h5
+*.vtk
+*.vtu
+*.msh
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
